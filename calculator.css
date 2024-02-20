@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat";
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+}
+
+h2 {
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+section {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #131313;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.display {
+    background-color: #010101;
+    color: whitesmoke;
+    height: 120px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+}
+
+.display-history {
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.temp-result {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.calc-button {
+    color: #36D7D1;
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+}
+
+.double-btn {
+    grid-column: 1/3;
+}
+
+.button {
+    /* border: 0.2px solid grey; */
+    display: inline-block;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: rgba(245, 245, 245, 0.3);
+}
+
+.number {
+    color: whitesmoke;
+}
+
+
